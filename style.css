@@ -1,0 +1,286 @@
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+.navbar {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.no-hover-effect:hover {
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.navbar button {
+  font-size: 16px;
+}
+
+.small-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  display: flex;
+  margin-top: 1.5px;
+}
+
+.small-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.small-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.small-subtext {
+  font-size: 14px;
+}
+
+.counter {
+  font-size: 18px;
+  font-weight: bold;
+  color: #006cff;
+}
+
+.mobile-hide {
+  display: inline; 
+}
+
+.mycard {
+  background-color: #daf7ff;
+}
+
+#carouselExampleRide img {
+  width: 300px;
+}
+
+/* media query for 576-991 resolution */
+@media (min-width: 576px) and (max-width: 991px) {
+  .navbar button {
+    margin-top: 12px;
+  }
+  h1 {
+    font-size: 25px !important;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+  .watchlistbtn button {
+    font-size: 15px;
+  }
+
+  .counter {
+    font-size: 16px;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .firstcard {
+    font-size: 13px;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .section-description {
+    font-size: 12px;
+  }
+
+  .stats-title {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  .benefit-section p {
+    font-size: 12px;
+  }
+
+  #carouselExample img {
+    height: 250px;
+  }
+  #carouselExample h5 {
+    font-size: 16px !important;
+  }
+  #carouselExample .card-title {
+    font-size: 13px;
+  }
+  #carouselExample p {
+    font-size: 12px;
+  }
+  #carouselExampleRide h5 {
+    font-size: 16px;
+  }
+
+  .benefit-section img {
+    height: 400px !important;
+    width: 500px !important;
+    margin-bottom: 10px;
+  }
+  .benefit-section h5 {
+    font-size: 13px;
+  }
+  .benefit-section p {
+    font-size: 10px;
+  }
+  .benefit-section hr {
+    margin-bottom: 8px !important;
+    margin-top: 0px !important;
+  }
+  footer .footer-para {
+    font-size: small !important;
+  }
+  footer .card p {
+    font-size: small;
+  }
+  footer .card h4 {
+    font-size: 16px;
+  }
+}
+
+/* media query for 320-576 resolution for mobile devices */
+@media (min-width: 320px) and (max-width: 576px) {
+  h3 {
+    font-size: 18px !important;
+  }
+
+  h5 {
+    font-size: 12px !important;
+  }
+  .navbar button {
+    margin-top: 12px;
+  }
+  h1 {
+    font-size: 17px !important;
+  }
+
+  .paragraph {
+    font-size: 13px !important;
+  }
+
+  .watchlistbtn button {
+    font-size: 12px !important;
+  }
+
+  .small-text {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .small-subtext {
+    font-size: 12px;
+  }
+
+  .counter {
+    font-size: 13px;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .section-description {
+    font-size: 12px;
+  }
+
+  .stats-title {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  .stats-description {
+    font-size: 0.8rem;
+  }
+  .mobile-hide {
+    display: none;
+  }
+
+  .firstcard {
+    font-size: 10px;
+  }
+
+  .loremtext {
+    font-size: 0.6rem;
+  }
+
+  #carouselExampleRide img {
+    width: 250px;
+  }
+  #carouselExampleRide h5 {
+    font-size: 16px;
+  }
+
+  .carousel h4 {
+    font-size: 16px;
+  }
+  .carousel button {
+    font-size: 13px;
+  }
+
+  #carouselExample img {
+    width: 300px;
+    height: 150px;
+  }
+  #carouselExample h5 {
+    font-size: 13px;
+  }
+  #carouselExample .card-title {
+    font-size: 13px;
+  }
+  #carouselExample p {
+    font-size: 10px;
+  }
+  .benefit-section img {
+    height: 400px !important;
+    width: 500px !important;
+    margin-bottom: 10px;
+  }
+  .benefit-section h5 {
+    font-size: 13px;
+  }
+  .benefit-section p {
+    font-size: 10px;
+  }
+  .benefit-section hr {
+    margin-bottom: 8px !important;
+    margin-top: 0px !important;
+  }
+
+  footer .investtext {
+    font-size: 10px !important;
+  }
+
+  footer .footer-para {
+    font-size: small !important;
+  }
+
+  footer .card p {
+    font-size: small;
+  }
+  footer .card h4 {
+    font-size: 16px;
+  }
+  footer .card button {
+    font-size: 12px !important;
+  }
+
+  footer .copyright-text {
+    font-size: 10px !important;
+  }
+
+  #accordionExample .accordion-item,
+  .accordion-button {
+    font-size: 12px !important;
+  }
+}
